@@ -1,0 +1,27 @@
+{
+  "name": "teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "A team profile generator written primarily in Javascript utilizing Jest and Node.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmorgan1987/TeamProfileGenerator.git"
+  },
+  "keywords": [],
+  "author": "Troy Morgan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmorgan1987/TeamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/tmorgan1987/TeamProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "jest": "^29.2.2"
+  }
+}
