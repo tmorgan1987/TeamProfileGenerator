@@ -52,3 +52,18 @@ const genIntern = (intern) => {
 	</div>
 	`
 };
+
+// makeHtml = (data) => {
+// 	htmlArr = [];
+// 	for (let i = 0; i < data.length; i++) {
+//         const employee = data[i];
+//         const role = employee.getRole(); 
+// }
+
+// forEach attempt for practice, hope it works.
+data.forEach( employee => { const role = employee.getRole(); } )
+
+if (role == 'Manager') {
+	const managerCard = genManager(employee);
+	htmlArr.push(managerCard);
+}
