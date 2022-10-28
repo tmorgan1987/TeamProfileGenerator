@@ -9,14 +9,14 @@ describe('Employee', () => {
 
 			expect(obj.name).toEqual(name);
 		})
-		it ("It can set id via constructor arguments", () => {
+		it ("It can set id via constructor arguments.", () => {
 			const id = 2;
 
 			const obj = new Employee("string",id,"raw@yeah.com");
 
 			expect(obj.id).toEqual(id);
 		})
-		it ("It can set email via constructor arguments", () => {
+		it ("It can set email via constructor arguments.", () => {
 			const email = "turd@ferguson.com";
 
 			const obj = new Employee("magellan", 2, email);

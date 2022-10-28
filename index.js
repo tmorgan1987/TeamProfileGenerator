@@ -192,11 +192,14 @@ team.push(employee);
 stateManagement()
 	.then(stateEmployee)
 	.then(team => {
+		console.log(team);
 		return makeHTML(team);
 	})
 	.then(pageHTML => {
-		return fs.writeFile(pageHTML);
+		return writeFile(pageHTML);
 	})
 	.catch(error => {
 		console.log(error);
 	});
+
+
