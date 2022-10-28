@@ -17,7 +17,7 @@ const genEngi = (engineer) => {
 		<h4>Engineer</h4>
 		<p class="id">Identification Number: ${engineer.id}</p>
 		<p class="email">email: ${engineer.email}</p>
-		<p class="github">Github Profile: ${engineer.github}</p>
+		<p class="github">Github Profile: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
 	</div>
 		`;
 };
@@ -28,7 +28,7 @@ const genIntern = (intern) => {
 		<h3>${intern.name}</h3>
 		<h4>Intern</h4>
 		<p class="id>Identification Number: ${intern.id}</p>
-		<p class="email">email: ${intern.email}</p>
+		<p class="email">email:<a href="mailto:${intern.email}">${intern.email}</a></p>
 		<p class="school">School: ${intern.school}</p>
 	</div>
 	`;
